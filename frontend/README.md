@@ -7,11 +7,12 @@ React + TypeScript + Tailwind CSS, using the Enterprise Blue light layout.
 Start the backend on port 8000, then run these commands in the frontend directory:
 
 ```sh
+npm ci
 npm start
 ```
 
 Open http://localhost:3000. The existing package.json proxy forwards `/api` requests
-to http://127.0.0.1:8000. No new packages are required for these changes.
+to http://127.0.0.1:8000. Install the packages with `npm ci` before starting a fresh checkout.
 
 ## Implemented
 
@@ -22,20 +23,21 @@ to http://127.0.0.1:8000. No new packages are required for these changes.
 - Preserve selection in `?incident=INC-1001`, including refresh and Back/Forward.
 - Read and switch between the incident report, logs, change and runbook.
 - Cancel obsolete data requests when changing incidents or leaving the page.
-- Draft an investigation question. The submit button is intentionally disabled:
-  AI is not connected and there are no AI requests or fabricated answers.
+- Stream an AI investigation grounded in the selected incident and evidence.
+- Ask follow-up questions, stop an answer or start a new conversation.
+- Display provider errors and preserve partial answers when stopped.
 
-All incidents and evidence are fictional demo data. Question drafts are held in
-component state and reset when selecting another incident; they are not saved.
+All incidents and evidence are fictional demo data. Questions and answers are held in
+component state and reset when selecting another incident or refreshing; they are not saved.
 
 ## Keep the code straightforward
 
-- `src/services/api.ts` contains the two HTTP calls. The backend validates the data.
+- `src/services/api.ts` contains the data requests and streaming AI request. The backend validates the data.
 - `IncidentListPage` loads incidents and owns incident selection.
 - `IncidentListPanel` owns search, filtering and pagination locally.
 - `EvidencePanel` loads and selects its own sources.
-- `InvestigationPanel` owns the draft question and is the frontend entry point for
-  your future AI integration.
+- `InvestigationPanel` owns the conversation, request cancellation and
+  streamed answer updates.
 - The existing `AppLayout`, `IncidentTable`, `IncidentRow`, `IncidentHeader` and
   `Badge` components keep their original responsibilities.
 

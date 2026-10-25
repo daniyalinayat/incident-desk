@@ -27,5 +27,7 @@ filtering or virtualization is needed for this small, paginated fixture list.
 The service file contains straightforward HTTP calls. Type definitions describe
 incident and evidence data. Backend schemas own validation.
 
-AI, streaming, generated messages and notification updates are not implemented.
-The investigation panel contains only an editable question and a disabled action.
+InvestigationPanel owns the local conversation and streams AI answers through
+the backend. It supports Stop, follow-up messages and New conversation. Its
+request is cancelled when the selected incident changes or the panel unmounts.
+Notification updates are not implemented.
