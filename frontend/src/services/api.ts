@@ -24,12 +24,19 @@ export async function getIncidentEvidence( incidentId: string, signal: AbortSign
   return response.json();
 }
 
-export async function streamInvestigation( incidentId: string, question: string, onText: (text: string) => void, signal: AbortSignal ): Promise<void> {
+export interface ConversationMessage {
+  role: 'user' | 'assistant';
+  content: string;
+}
+
+// export async function streamInvestigation( incidentId: string, question: string, onText: (text: string) => void, signal: AbortSignal ): Promise<void> {
+export async function streamInvestigation( incidentId: string, messages: readonly ConversationMessage[], onText: (text: string) => void, signal: AbortSignal ): Promise<void> {
   const response = await fetch(`/api/incidents/${encodeURIComponent(incidentId)}/investigate`, {
     method: 'POST',
     signal,
     headers: { 'Content-Type': 'application/json', Accept: 'text/event-stream' },
-    body: JSON.stringify({ question }),
+    body: JSON.stringify({ messages }),
+    // body: JSON.stringify({ question }),
   });
 
     if (!response.ok) {
