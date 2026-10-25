@@ -54,7 +54,7 @@ test('loads the API queue, paginates, searches and selects an incident without A
   expect(window.location.search).toBe('?incident=INC-1024');
   expect(screen.getByRole('heading', { name: 'Example incident 24' })).toBeInTheDocument();
   fireEvent.change(screen.getByLabelText('Your question'), { target: { value: 'What happened?' } });
-  expect(screen.getByRole('button', { name: 'Start investigation' })).toBeDisabled();
+  expect(screen.getByRole('button', { name: 'Start investigation' })).toBeEnabled();
   await screen.findByText('The report text');
   expect(fetchMock.mock.calls.every(([path]) => path === '/api/incidents' || /\/api\/incidents\/INC-\d+\/evidence$/.test(path))).toBe(true);
 });
