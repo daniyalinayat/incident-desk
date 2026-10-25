@@ -1,0 +1,2002 @@
+{
+  "INC-1001": [
+    {
+      "id": "INC-1001-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1001\n2026-10-13T21:44:00Z INFO service=\"Reporting service\" diagnostic_capture_started\n2026-10-13T21:44:00Z WARN symptom=\"Daily report not generated — Mobile app\"\n2026-10-13T21:44:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1001\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1001-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1001\nService: Reporting service\nRecorded time: 2026-10-13T20:59:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1001-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Reporting service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-13T21:44:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1002": [
+    {
+      "id": "INC-1002-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1002\n2026-10-18T05:36:00Z INFO service=\"Authentication service\" diagnostic_capture_started\n2026-10-18T05:36:00Z WARN symptom=\"Sign-in redirects repeatedly — Asia Pacific\"\n2026-10-18T05:36:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1002\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1002-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1002\nService: Authentication service\nRecorded time: 2026-10-18T04:51:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1002-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Authentication service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-18T05:36:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1003": [
+    {
+      "id": "INC-1003-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1003\n2026-10-10T11:42:00Z INFO service=\"Order service\" diagnostic_capture_started\n2026-10-10T11:42:00Z WARN symptom=\"Order history loads incompletely — Asia Pacific\"\n2026-10-10T11:42:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1003\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1003-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1003\nService: Order service\nRecorded time: 2026-10-10T10:57:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1003-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Order service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-10T11:42:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1004": [
+    {
+      "id": "INC-1004-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1004\n2026-10-23T17:04:00Z INFO service=\"Integration service\" diagnostic_capture_started\n2026-10-23T17:04:00Z WARN symptom=\"External incident synchronization stalled — North America\"\n2026-10-23T17:04:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1004\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1004-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1004\nService: Integration service\nRecorded time: 2026-10-23T16:19:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1004-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Integration service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-23T17:04:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1005": [
+    {
+      "id": "INC-1005-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1005\n2026-10-18T15:58:00Z INFO service=\"Document service\" diagnostic_capture_started\n2026-10-18T15:58:00Z WARN symptom=\"Document upload fails — Europe\"\n2026-10-18T15:58:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1005\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1005-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1005\nService: Document service\nRecorded time: 2026-10-18T15:13:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1005-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Document service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-18T15:58:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1006": [
+    {
+      "id": "INC-1006-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1006\n2026-10-16T08:32:00Z INFO service=\"Notification service\" diagnostic_capture_started\n2026-10-16T08:32:00Z WARN symptom=\"Duplicate email notifications — North America\"\n2026-10-16T08:32:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1006\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1006-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1006\nService: Notification service\nRecorded time: 2026-10-16T07:47:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1006-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Notification service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-16T08:32:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1007": [
+    {
+      "id": "INC-1007-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1007\n2026-10-12T19:53:00Z INFO service=\"Document service\" diagnostic_capture_started\n2026-10-12T19:53:00Z WARN symptom=\"Document upload fails — Internal portal\"\n2026-10-12T19:53:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1007\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1007-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1007\nService: Document service\nRecorded time: 2026-10-12T19:08:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1007-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Document service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-12T19:53:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1008": [
+    {
+      "id": "INC-1008-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1008\n2026-10-10T21:08:00Z INFO service=\"Reporting service\" diagnostic_capture_started\n2026-10-10T21:08:00Z WARN symptom=\"Report export fails — Customer portal\"\n2026-10-10T21:08:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1008\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1008-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1008\nService: Reporting service\nRecorded time: 2026-10-10T20:23:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1008-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Reporting service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-10T21:08:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1009": [
+    {
+      "id": "INC-1009-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1009\n2026-10-13T02:41:00Z INFO service=\"Order service\" diagnostic_capture_started\n2026-10-13T02:41:00Z WARN symptom=\"Order submission times out — Internal portal\"\n2026-10-13T02:41:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1009\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1009-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1009\nService: Order service\nRecorded time: 2026-10-13T01:56:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1009-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Order service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-13T02:41:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1010": [
+    {
+      "id": "INC-1010-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1010\n2026-10-21T16:03:00Z INFO service=\"Inventory service\" diagnostic_capture_started\n2026-10-21T16:03:00Z WARN symptom=\"Stock quantities not updating — Customer portal\"\n2026-10-21T16:03:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1010\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1010-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1010\nService: Inventory service\nRecorded time: 2026-10-21T15:18:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1010-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Inventory service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-21T16:03:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1011": [
+    {
+      "id": "INC-1011-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1011\n2026-10-14T12:29:00Z INFO service=\"Document service\" diagnostic_capture_started\n2026-10-14T12:29:00Z WARN symptom=\"Document upload fails — Mobile app\"\n2026-10-14T12:29:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1011\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1011-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1011\nService: Document service\nRecorded time: 2026-10-14T11:44:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1011-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Document service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-14T12:29:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1012": [
+    {
+      "id": "INC-1012-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1012\n2026-10-21T15:15:00Z INFO service=\"Integration service\" diagnostic_capture_started\n2026-10-21T15:15:00Z WARN symptom=\"External incident synchronization stalled — Customer portal\"\n2026-10-21T15:15:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1012\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1012-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1012\nService: Integration service\nRecorded time: 2026-10-21T14:30:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1012-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Integration service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-21T15:15:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1013": [
+    {
+      "id": "INC-1013-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1013\n2026-10-21T09:19:00Z INFO service=\"Integration service\" diagnostic_capture_started\n2026-10-21T09:19:00Z WARN symptom=\"Employee directory lookup fails — Mobile app\"\n2026-10-21T09:19:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1013\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1013-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1013\nService: Integration service\nRecorded time: 2026-10-21T08:34:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1013-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Integration service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-21T09:19:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1014": [
+    {
+      "id": "INC-1014-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1014\n2026-10-13T15:59:00Z INFO service=\"Payment service\" diagnostic_capture_started\n2026-10-13T15:59:00Z WARN symptom=\"Payment confirmations delayed — Europe\"\n2026-10-13T15:59:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1014\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1014-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1014\nService: Payment service\nRecorded time: 2026-10-13T15:14:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1014-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Payment service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-13T15:59:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1015": [
+    {
+      "id": "INC-1015-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1015\n2026-10-13T08:20:00Z INFO service=\"Reporting service\" diagnostic_capture_started\n2026-10-13T08:20:00Z WARN symptom=\"Daily report not generated — North America\"\n2026-10-13T08:20:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1015\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1015-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1015\nService: Reporting service\nRecorded time: 2026-10-13T07:35:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1015-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Reporting service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-13T08:20:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1016": [
+    {
+      "id": "INC-1016-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1016\n2026-10-13T18:59:00Z INFO service=\"API gateway\" diagnostic_capture_started\n2026-10-13T18:59:00Z WARN symptom=\"Intermittent backend connection errors — Mobile app\"\n2026-10-13T18:59:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1016\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1016-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1016\nService: API gateway\nRecorded time: 2026-10-13T18:14:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1016-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — API gateway\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-13T18:59:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1017": [
+    {
+      "id": "INC-1017-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1017\n2026-10-21T15:31:00Z INFO service=\"Notification service\" diagnostic_capture_started\n2026-10-21T15:31:00Z WARN symptom=\"SMS notifications not delivered — North America\"\n2026-10-21T15:31:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1017\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1017-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1017\nService: Notification service\nRecorded time: 2026-10-21T14:46:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1017-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Notification service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-21T15:31:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1018": [
+    {
+      "id": "INC-1018-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1018\n2026-10-23T12:56:00Z INFO service=\"Inventory service\" diagnostic_capture_started\n2026-10-23T12:56:00Z WARN symptom=\"Stock quantities not updating — North America\"\n2026-10-23T12:56:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1018\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1018-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1018\nService: Inventory service\nRecorded time: 2026-10-23T12:11:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1018-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Inventory service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-23T12:56:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1019": [
+    {
+      "id": "INC-1019-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1019\n2026-10-18T11:54:00Z INFO service=\"Authentication service\" diagnostic_capture_started\n2026-10-18T11:54:00Z WARN symptom=\"Session renewal rejected — Europe\"\n2026-10-18T11:54:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1019\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1019-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1019\nService: Authentication service\nRecorded time: 2026-10-18T11:09:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1019-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Authentication service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-18T11:54:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1020": [
+    {
+      "id": "INC-1020-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1020\n2026-10-19T00:15:00Z INFO service=\"Reporting service\" diagnostic_capture_started\n2026-10-19T00:15:00Z WARN symptom=\"Daily report not generated — Asia Pacific\"\n2026-10-19T00:15:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1020\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1020-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1020\nService: Reporting service\nRecorded time: 2026-10-18T23:30:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1020-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Reporting service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-19T00:15:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1021": [
+    {
+      "id": "INC-1021-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1021\n2026-10-20T03:05:00Z INFO service=\"Notification service\" diagnostic_capture_started\n2026-10-20T03:05:00Z WARN symptom=\"SMS notifications not delivered — Customer portal\"\n2026-10-20T03:05:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1021\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1021-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1021\nService: Notification service\nRecorded time: 2026-10-20T02:20:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1021-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Notification service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-20T03:05:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1022": [
+    {
+      "id": "INC-1022-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1022\n2026-10-17T20:09:00Z INFO service=\"API gateway\" diagnostic_capture_started\n2026-10-17T20:09:00Z WARN symptom=\"API requests rejected unexpectedly — Asia Pacific\"\n2026-10-17T20:09:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1022\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1022-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1022\nService: API gateway\nRecorded time: 2026-10-17T19:24:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1022-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — API gateway\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-17T20:09:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1023": [
+    {
+      "id": "INC-1023-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1023\n2026-10-17T09:12:00Z INFO service=\"Payment service\" diagnostic_capture_started\n2026-10-17T09:12:00Z WARN symptom=\"Payment confirmations delayed — Internal portal\"\n2026-10-17T09:12:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1023\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1023-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1023\nService: Payment service\nRecorded time: 2026-10-17T08:27:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1023-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Payment service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-17T09:12:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1024": [
+    {
+      "id": "INC-1024-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1024\n2026-10-11T05:28:00Z INFO service=\"Inventory service\" diagnostic_capture_started\n2026-10-11T05:28:00Z WARN symptom=\"Stock quantities not updating — Internal portal\"\n2026-10-11T05:28:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1024\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1024-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1024\nService: Inventory service\nRecorded time: 2026-10-11T04:43:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1024-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Inventory service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-11T05:28:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1025": [
+    {
+      "id": "INC-1025-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1025\n2026-10-19T13:17:00Z INFO service=\"Integration service\" diagnostic_capture_started\n2026-10-19T13:17:00Z WARN symptom=\"Employee directory lookup fails — Customer portal\"\n2026-10-19T13:17:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1025\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1025-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1025\nService: Integration service\nRecorded time: 2026-10-19T12:32:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1025-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Integration service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-19T13:17:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1026": [
+    {
+      "id": "INC-1026-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1026\n2026-10-10T16:41:00Z INFO service=\"Reporting service\" diagnostic_capture_started\n2026-10-10T16:41:00Z WARN symptom=\"Daily report not generated — Internal portal\"\n2026-10-10T16:41:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1026\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1026-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1026\nService: Reporting service\nRecorded time: 2026-10-10T15:56:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1026-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Reporting service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-10T16:41:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1027": [
+    {
+      "id": "INC-1027-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1027\n2026-10-16T17:43:00Z INFO service=\"Payment service\" diagnostic_capture_started\n2026-10-16T17:43:00Z WARN symptom=\"Payment status inconsistent — Mobile app\"\n2026-10-16T17:43:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1027\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1027-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1027\nService: Payment service\nRecorded time: 2026-10-16T16:58:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1027-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Payment service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-16T17:43:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1028": [
+    {
+      "id": "INC-1028-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1028\n2026-10-12T10:22:00Z INFO service=\"Payment service\" diagnostic_capture_started\n2026-10-12T10:22:00Z WARN symptom=\"Payment status inconsistent — Customer portal\"\n2026-10-12T10:22:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1028\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1028-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1028\nService: Payment service\nRecorded time: 2026-10-12T09:37:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1028-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Payment service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-12T10:22:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1029": [
+    {
+      "id": "INC-1029-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1029\n2026-10-22T13:56:00Z INFO service=\"Document service\" diagnostic_capture_started\n2026-10-22T13:56:00Z WARN symptom=\"Document upload fails — Customer portal\"\n2026-10-22T13:56:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1029\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1029-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1029\nService: Document service\nRecorded time: 2026-10-22T13:11:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1029-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Document service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-22T13:56:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1030": [
+    {
+      "id": "INC-1030-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1030\n2026-10-19T15:30:00Z INFO service=\"Order service\" diagnostic_capture_started\n2026-10-19T15:30:00Z WARN symptom=\"Order history loads incompletely — Mobile app\"\n2026-10-19T15:30:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1030\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1030-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1030\nService: Order service\nRecorded time: 2026-10-19T14:45:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1030-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Order service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-19T15:30:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1031": [
+    {
+      "id": "INC-1031-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1031\n2026-10-18T12:32:00Z INFO service=\"Notification service\" diagnostic_capture_started\n2026-10-18T12:32:00Z WARN symptom=\"SMS notifications not delivered — Asia Pacific\"\n2026-10-18T12:32:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1031\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1031-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1031\nService: Notification service\nRecorded time: 2026-10-18T11:47:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1031-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Notification service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-18T12:32:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1032": [
+    {
+      "id": "INC-1032-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1032\n2026-10-10T21:52:00Z INFO service=\"Search service\" diagnostic_capture_started\n2026-10-10T21:52:00Z WARN symptom=\"Search requests respond slowly — Europe\"\n2026-10-10T21:52:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1032\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1032-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1032\nService: Search service\nRecorded time: 2026-10-10T21:07:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1032-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Search service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-10T21:52:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1033": [
+    {
+      "id": "INC-1033-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1033\n2026-10-22T00:13:00Z INFO service=\"API gateway\" diagnostic_capture_started\n2026-10-22T00:13:00Z WARN symptom=\"API requests rejected unexpectedly — Europe\"\n2026-10-22T00:13:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1033\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1033-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1033\nService: API gateway\nRecorded time: 2026-10-21T23:28:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1033-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — API gateway\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-22T00:13:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1034": [
+    {
+      "id": "INC-1034-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1034\n2026-10-11T23:29:00Z INFO service=\"Search service\" diagnostic_capture_started\n2026-10-11T23:29:00Z WARN symptom=\"Search results missing recent records — Europe\"\n2026-10-11T23:29:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1034\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1034-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1034\nService: Search service\nRecorded time: 2026-10-11T22:44:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1034-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Search service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-11T23:29:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1035": [
+    {
+      "id": "INC-1035-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1035\n2026-10-16T17:24:00Z INFO service=\"Search service\" diagnostic_capture_started\n2026-10-16T17:24:00Z WARN symptom=\"Search results missing recent records — Mobile app\"\n2026-10-16T17:24:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1035\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1035-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1035\nService: Search service\nRecorded time: 2026-10-16T16:39:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1035-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Search service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-16T17:24:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1036": [
+    {
+      "id": "INC-1036-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1036\n2026-10-17T01:09:00Z INFO service=\"Integration service\" diagnostic_capture_started\n2026-10-17T01:09:00Z WARN symptom=\"Employee directory lookup fails — North America\"\n2026-10-17T01:09:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1036\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1036-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1036\nService: Integration service\nRecorded time: 2026-10-17T00:24:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1036-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Integration service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-17T01:09:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1037": [
+    {
+      "id": "INC-1037-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1037\n2026-10-22T05:22:00Z INFO service=\"Search service\" diagnostic_capture_started\n2026-10-22T05:22:00Z WARN symptom=\"Search requests respond slowly — Internal portal\"\n2026-10-22T05:22:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1037\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1037-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1037\nService: Search service\nRecorded time: 2026-10-22T04:37:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1037-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Search service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-22T05:22:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1038": [
+    {
+      "id": "INC-1038-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1038\n2026-10-11T01:31:00Z INFO service=\"Order service\" diagnostic_capture_started\n2026-10-11T01:31:00Z WARN symptom=\"Order history loads incompletely — Customer portal\"\n2026-10-11T01:31:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1038\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1038-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1038\nService: Order service\nRecorded time: 2026-10-11T00:46:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1038-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Order service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-11T01:31:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1039": [
+    {
+      "id": "INC-1039-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1039\n2026-10-19T00:35:00Z INFO service=\"Payment service\" diagnostic_capture_started\n2026-10-19T00:35:00Z WARN symptom=\"Payment confirmations delayed — Asia Pacific\"\n2026-10-19T00:35:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1039\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1039-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1039\nService: Payment service\nRecorded time: 2026-10-18T23:50:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1039-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Payment service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-19T00:35:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1040": [
+    {
+      "id": "INC-1040-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1040\n2026-10-15T22:23:00Z INFO service=\"Notification service\" diagnostic_capture_started\n2026-10-15T22:23:00Z WARN symptom=\"Duplicate email notifications — Europe\"\n2026-10-15T22:23:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1040\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1040-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1040\nService: Notification service\nRecorded time: 2026-10-15T21:38:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1040-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Notification service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-15T22:23:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1041": [
+    {
+      "id": "INC-1041-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1041\n2026-10-15T11:11:00Z INFO service=\"Authentication service\" diagnostic_capture_started\n2026-10-15T11:11:00Z WARN symptom=\"Sign-in redirects repeatedly — Europe\"\n2026-10-15T11:11:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1041\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1041-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1041\nService: Authentication service\nRecorded time: 2026-10-15T10:26:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1041-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Authentication service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-15T11:11:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1042": [
+    {
+      "id": "INC-1042-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1042\n2026-10-11T12:19:00Z INFO service=\"Reporting service\" diagnostic_capture_started\n2026-10-11T12:19:00Z WARN symptom=\"Daily report not generated — Europe\"\n2026-10-11T12:19:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1042\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1042-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1042\nService: Reporting service\nRecorded time: 2026-10-11T11:34:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1042-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Reporting service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-11T12:19:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1043": [
+    {
+      "id": "INC-1043-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1043\n2026-10-11T20:07:00Z INFO service=\"Inventory service\" diagnostic_capture_started\n2026-10-11T20:07:00Z WARN symptom=\"Stock reservation remains pending — Mobile app\"\n2026-10-11T20:07:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1043\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1043-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1043\nService: Inventory service\nRecorded time: 2026-10-11T19:22:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1043-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Inventory service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-11T20:07:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1044": [
+    {
+      "id": "INC-1044-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1044\n2026-10-17T01:29:00Z INFO service=\"Inventory service\" diagnostic_capture_started\n2026-10-17T01:29:00Z WARN symptom=\"Stock reservation remains pending — Asia Pacific\"\n2026-10-17T01:29:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1044\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1044-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1044\nService: Inventory service\nRecorded time: 2026-10-17T00:44:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1044-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Inventory service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-17T01:29:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1045": [
+    {
+      "id": "INC-1045-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1045\n2026-10-20T19:39:00Z INFO service=\"Integration service\" diagnostic_capture_started\n2026-10-20T19:39:00Z WARN symptom=\"External incident synchronization stalled — Internal portal\"\n2026-10-20T19:39:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1045\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1045-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1045\nService: Integration service\nRecorded time: 2026-10-20T18:54:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1045-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Integration service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-20T19:39:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1046": [
+    {
+      "id": "INC-1046-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1046\n2026-10-11T06:51:00Z INFO service=\"Inventory service\" diagnostic_capture_started\n2026-10-11T06:51:00Z WARN symptom=\"Stock quantities not updating — Europe\"\n2026-10-11T06:51:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1046\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1046-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1046\nService: Inventory service\nRecorded time: 2026-10-11T06:06:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1046-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Inventory service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-11T06:51:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1047": [
+    {
+      "id": "INC-1047-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1047\n2026-10-19T01:58:00Z INFO service=\"Search service\" diagnostic_capture_started\n2026-10-19T01:58:00Z WARN symptom=\"Search requests respond slowly — North America\"\n2026-10-19T01:58:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1047\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1047-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1047\nService: Search service\nRecorded time: 2026-10-19T01:13:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1047-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Search service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-19T01:58:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1048": [
+    {
+      "id": "INC-1048-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1048\n2026-10-17T20:49:00Z INFO service=\"API gateway\" diagnostic_capture_started\n2026-10-17T20:49:00Z WARN symptom=\"Intermittent backend connection errors — Europe\"\n2026-10-17T20:49:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1048\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1048-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1048\nService: API gateway\nRecorded time: 2026-10-17T20:04:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1048-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — API gateway\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-17T20:49:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1049": [
+    {
+      "id": "INC-1049-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1049\n2026-10-22T17:15:00Z INFO service=\"Search service\" diagnostic_capture_started\n2026-10-22T17:15:00Z WARN symptom=\"Search requests respond slowly — Mobile app\"\n2026-10-22T17:15:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1049\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1049-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1049\nService: Search service\nRecorded time: 2026-10-22T16:30:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1049-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Search service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-22T17:15:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1050": [
+    {
+      "id": "INC-1050-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1050\n2026-10-17T13:53:00Z INFO service=\"Document service\" diagnostic_capture_started\n2026-10-17T13:53:00Z WARN symptom=\"Document preview unavailable — Internal portal\"\n2026-10-17T13:53:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1050\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1050-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1050\nService: Document service\nRecorded time: 2026-10-17T13:08:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1050-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Document service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-17T13:53:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1051": [
+    {
+      "id": "INC-1051-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1051\n2026-10-20T21:33:00Z INFO service=\"Document service\" diagnostic_capture_started\n2026-10-20T21:33:00Z WARN symptom=\"Document preview unavailable — Europe\"\n2026-10-20T21:33:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1051\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1051-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1051\nService: Document service\nRecorded time: 2026-10-20T20:48:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1051-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Document service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-20T21:33:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1052": [
+    {
+      "id": "INC-1052-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1052\n2026-10-13T19:41:00Z INFO service=\"Authentication service\" diagnostic_capture_started\n2026-10-13T19:41:00Z WARN symptom=\"Session renewal rejected — Mobile app\"\n2026-10-13T19:41:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1052\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1052-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1052\nService: Authentication service\nRecorded time: 2026-10-13T18:56:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1052-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Authentication service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-13T19:41:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1053": [
+    {
+      "id": "INC-1053-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1053\n2026-10-23T15:43:00Z INFO service=\"Order service\" diagnostic_capture_started\n2026-10-23T15:43:00Z WARN symptom=\"Order submission times out — Mobile app\"\n2026-10-23T15:43:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1053\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1053-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1053\nService: Order service\nRecorded time: 2026-10-23T14:58:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1053-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Order service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-23T15:43:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1054": [
+    {
+      "id": "INC-1054-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1054\n2026-10-20T11:35:00Z INFO service=\"API gateway\" diagnostic_capture_started\n2026-10-20T11:35:00Z WARN symptom=\"Intermittent backend connection errors — Asia Pacific\"\n2026-10-20T11:35:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1054\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1054-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1054\nService: API gateway\nRecorded time: 2026-10-20T10:50:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1054-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — API gateway\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-20T11:35:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1055": [
+    {
+      "id": "INC-1055-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1055\n2026-10-10T14:52:00Z INFO service=\"Notification service\" diagnostic_capture_started\n2026-10-10T14:52:00Z WARN symptom=\"SMS notifications not delivered — Mobile app\"\n2026-10-10T14:52:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1055\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1055-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1055\nService: Notification service\nRecorded time: 2026-10-10T14:07:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1055-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Notification service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-10T14:52:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1056": [
+    {
+      "id": "INC-1056-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1056\n2026-10-22T22:09:00Z INFO service=\"Payment service\" diagnostic_capture_started\n2026-10-22T22:09:00Z WARN symptom=\"Payment status inconsistent — North America\"\n2026-10-22T22:09:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1056\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1056-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1056\nService: Payment service\nRecorded time: 2026-10-22T21:24:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1056-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Payment service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-22T22:09:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1057": [
+    {
+      "id": "INC-1057-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1057\n2026-10-22T23:12:00Z INFO service=\"Authentication service\" diagnostic_capture_started\n2026-10-22T23:12:00Z WARN symptom=\"Sign-in redirects repeatedly — Mobile app\"\n2026-10-22T23:12:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1057\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1057-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1057\nService: Authentication service\nRecorded time: 2026-10-22T22:27:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1057-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Authentication service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-22T23:12:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1058": [
+    {
+      "id": "INC-1058-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1058\n2026-10-18T04:43:00Z INFO service=\"API gateway\" diagnostic_capture_started\n2026-10-18T04:43:00Z WARN symptom=\"Intermittent backend connection errors — Internal portal\"\n2026-10-18T04:43:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1058\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1058-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1058\nService: API gateway\nRecorded time: 2026-10-18T03:58:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1058-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — API gateway\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-18T04:43:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1059": [
+    {
+      "id": "INC-1059-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1059\n2026-10-11T03:13:00Z INFO service=\"API gateway\" diagnostic_capture_started\n2026-10-11T03:13:00Z WARN symptom=\"API requests rejected unexpectedly — Customer portal\"\n2026-10-11T03:13:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1059\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1059-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1059\nService: API gateway\nRecorded time: 2026-10-11T02:28:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1059-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — API gateway\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-11T03:13:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1060": [
+    {
+      "id": "INC-1060-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1060\n2026-10-20T08:35:00Z INFO service=\"Notification service\" diagnostic_capture_started\n2026-10-20T08:35:00Z WARN symptom=\"Duplicate email notifications — Customer portal\"\n2026-10-20T08:35:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1060\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1060-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1060\nService: Notification service\nRecorded time: 2026-10-20T07:50:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1060-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Notification service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-20T08:35:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1061": [
+    {
+      "id": "INC-1061-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1061\n2026-10-20T04:15:00Z INFO service=\"Payment service\" diagnostic_capture_started\n2026-10-20T04:15:00Z WARN symptom=\"Payment confirmations delayed — Mobile app\"\n2026-10-20T04:15:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1061\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1061-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1061\nService: Payment service\nRecorded time: 2026-10-20T03:30:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1061-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Payment service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-20T04:15:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1062": [
+    {
+      "id": "INC-1062-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1062\n2026-10-14T11:49:00Z INFO service=\"Inventory service\" diagnostic_capture_started\n2026-10-14T11:49:00Z WARN symptom=\"Stock quantities not updating — Mobile app\"\n2026-10-14T11:49:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1062\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1062-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1062\nService: Inventory service\nRecorded time: 2026-10-14T11:04:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1062-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Inventory service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-14T11:49:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1063": [
+    {
+      "id": "INC-1063-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1063\n2026-10-16T07:34:00Z INFO service=\"Search service\" diagnostic_capture_started\n2026-10-16T07:34:00Z WARN symptom=\"Search results missing recent records — Asia Pacific\"\n2026-10-16T07:34:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1063\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1063-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1063\nService: Search service\nRecorded time: 2026-10-16T06:49:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1063-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Search service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-16T07:34:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1064": [
+    {
+      "id": "INC-1064-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1064\n2026-10-18T05:28:00Z INFO service=\"Reporting service\" diagnostic_capture_started\n2026-10-18T05:28:00Z WARN symptom=\"Report export fails — North America\"\n2026-10-18T05:28:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1064\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1064-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1064\nService: Reporting service\nRecorded time: 2026-10-18T04:43:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1064-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Reporting service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-18T05:28:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1065": [
+    {
+      "id": "INC-1065-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1065\n2026-10-21T09:57:00Z INFO service=\"Search service\" diagnostic_capture_started\n2026-10-21T09:57:00Z WARN symptom=\"Search requests respond slowly — Asia Pacific\"\n2026-10-21T09:57:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1065\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1065-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1065\nService: Search service\nRecorded time: 2026-10-21T09:12:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1065-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Search service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-21T09:57:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1066": [
+    {
+      "id": "INC-1066-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1066\n2026-10-13T03:56:00Z INFO service=\"Notification service\" diagnostic_capture_started\n2026-10-13T03:56:00Z WARN symptom=\"SMS notifications not delivered — Europe\"\n2026-10-13T03:56:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1066\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1066-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1066\nService: Notification service\nRecorded time: 2026-10-13T03:11:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1066-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Notification service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-13T03:56:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1067": [
+    {
+      "id": "INC-1067-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1067\n2026-10-13T09:36:00Z INFO service=\"Reporting service\" diagnostic_capture_started\n2026-10-13T09:36:00Z WARN symptom=\"Report export fails — Europe\"\n2026-10-13T09:36:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1067\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1067-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1067\nService: Reporting service\nRecorded time: 2026-10-13T08:51:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1067-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Reporting service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-13T09:36:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1068": [
+    {
+      "id": "INC-1068-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1068\n2026-10-18T16:42:00Z INFO service=\"Document service\" diagnostic_capture_started\n2026-10-18T16:42:00Z WARN symptom=\"Document preview unavailable — North America\"\n2026-10-18T16:42:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1068\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1068-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1068\nService: Document service\nRecorded time: 2026-10-18T15:57:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1068-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Document service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-18T16:42:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1069": [
+    {
+      "id": "INC-1069-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1069\n2026-10-14T19:23:00Z INFO service=\"Order service\" diagnostic_capture_started\n2026-10-14T19:23:00Z WARN symptom=\"Order history loads incompletely — Europe\"\n2026-10-14T19:23:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1069\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1069-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1069\nService: Order service\nRecorded time: 2026-10-14T18:38:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1069-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Order service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-14T19:23:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1070": [
+    {
+      "id": "INC-1070-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1070\n2026-10-17T12:33:00Z INFO service=\"Inventory service\" diagnostic_capture_started\n2026-10-17T12:33:00Z WARN symptom=\"Stock reservation remains pending — Europe\"\n2026-10-17T12:33:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1070\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1070-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1070\nService: Inventory service\nRecorded time: 2026-10-17T11:48:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1070-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Inventory service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-17T12:33:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1071": [
+    {
+      "id": "INC-1071-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1071\n2026-10-11T16:09:00Z INFO service=\"Inventory service\" diagnostic_capture_started\n2026-10-11T16:09:00Z WARN symptom=\"Stock reservation remains pending — North America\"\n2026-10-11T16:09:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1071\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1071-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1071\nService: Inventory service\nRecorded time: 2026-10-11T15:24:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1071-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Inventory service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-11T16:09:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1072": [
+    {
+      "id": "INC-1072-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1072\n2026-10-17T22:20:00Z INFO service=\"Notification service\" diagnostic_capture_started\n2026-10-17T22:20:00Z WARN symptom=\"Duplicate email notifications — Asia Pacific\"\n2026-10-17T22:20:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1072\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1072-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1072\nService: Notification service\nRecorded time: 2026-10-17T21:35:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1072-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Notification service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-17T22:20:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1073": [
+    {
+      "id": "INC-1073-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1073\n2026-10-17T20:01:00Z INFO service=\"Integration service\" diagnostic_capture_started\n2026-10-17T20:01:00Z WARN symptom=\"Employee directory lookup fails — Internal portal\"\n2026-10-17T20:01:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1073\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1073-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1073\nService: Integration service\nRecorded time: 2026-10-17T19:16:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1073-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Integration service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-17T20:01:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1074": [
+    {
+      "id": "INC-1074-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1074\n2026-10-16T00:12:00Z INFO service=\"Payment service\" diagnostic_capture_started\n2026-10-16T00:12:00Z WARN symptom=\"Payment confirmations delayed — Customer portal\"\n2026-10-16T00:12:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1074\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1074-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1074\nService: Payment service\nRecorded time: 2026-10-15T23:27:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1074-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Payment service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-16T00:12:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1075": [
+    {
+      "id": "INC-1075-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1075\n2026-10-10T01:55:00Z INFO service=\"Authentication service\" diagnostic_capture_started\n2026-10-10T01:55:00Z WARN symptom=\"Session renewal rejected — Asia Pacific\"\n2026-10-10T01:55:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1075\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1075-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1075\nService: Authentication service\nRecorded time: 2026-10-10T01:10:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1075-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Authentication service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-10T01:55:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1076": [
+    {
+      "id": "INC-1076-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1076\n2026-10-10T18:06:00Z INFO service=\"Authentication service\" diagnostic_capture_started\n2026-10-10T18:06:00Z WARN symptom=\"Sign-in redirects repeatedly — North America\"\n2026-10-10T18:06:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1076\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1076-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1076\nService: Authentication service\nRecorded time: 2026-10-10T17:21:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1076-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Authentication service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-10T18:06:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1077": [
+    {
+      "id": "INC-1077-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1077\n2026-10-13T22:51:00Z INFO service=\"Notification service\" diagnostic_capture_started\n2026-10-13T22:51:00Z WARN symptom=\"Duplicate email notifications — Mobile app\"\n2026-10-13T22:51:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1077\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1077-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1077\nService: Notification service\nRecorded time: 2026-10-13T22:06:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1077-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Notification service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-13T22:51:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1078": [
+    {
+      "id": "INC-1078-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1078\n2026-10-11T14:56:00Z INFO service=\"Authentication service\" diagnostic_capture_started\n2026-10-11T14:56:00Z WARN symptom=\"Sign-in redirects repeatedly — Customer portal\"\n2026-10-11T14:56:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1078\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1078-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1078\nService: Authentication service\nRecorded time: 2026-10-11T14:11:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1078-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Authentication service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-11T14:56:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1079": [
+    {
+      "id": "INC-1079-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1079\n2026-10-19T09:23:00Z INFO service=\"API gateway\" diagnostic_capture_started\n2026-10-19T09:23:00Z WARN symptom=\"Intermittent backend connection errors — North America\"\n2026-10-19T09:23:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1079\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1079-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1079\nService: API gateway\nRecorded time: 2026-10-19T08:38:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1079-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — API gateway\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-19T09:23:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1080": [
+    {
+      "id": "INC-1080-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1080\n2026-10-16T08:40:00Z INFO service=\"Document service\" diagnostic_capture_started\n2026-10-16T08:40:00Z WARN symptom=\"Document preview unavailable — Asia Pacific\"\n2026-10-16T08:40:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1080\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1080-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1080\nService: Document service\nRecorded time: 2026-10-16T07:55:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1080-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Document service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-16T08:40:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1081": [
+    {
+      "id": "INC-1081-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1081\n2026-10-21T00:56:00Z INFO service=\"API gateway\" diagnostic_capture_started\n2026-10-21T00:56:00Z WARN symptom=\"API requests rejected unexpectedly — North America\"\n2026-10-21T00:56:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1081\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1081-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1081\nService: API gateway\nRecorded time: 2026-10-21T00:11:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1081-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — API gateway\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-21T00:56:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1082": [
+    {
+      "id": "INC-1082-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1082\n2026-10-16T20:05:00Z INFO service=\"Payment service\" diagnostic_capture_started\n2026-10-16T20:05:00Z WARN symptom=\"Payment status inconsistent — Europe\"\n2026-10-16T20:05:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1082\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1082-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1082\nService: Payment service\nRecorded time: 2026-10-16T19:20:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1082-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Payment service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-16T20:05:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1083": [
+    {
+      "id": "INC-1083-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1083\n2026-10-17T03:31:00Z INFO service=\"Inventory service\" diagnostic_capture_started\n2026-10-17T03:31:00Z WARN symptom=\"Stock reservation remains pending — Customer portal\"\n2026-10-17T03:31:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1083\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1083-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1083\nService: Inventory service\nRecorded time: 2026-10-17T02:46:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1083-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Inventory service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-17T03:31:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1084": [
+    {
+      "id": "INC-1084-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1084\n2026-10-15T05:56:00Z INFO service=\"Order service\" diagnostic_capture_started\n2026-10-15T05:56:00Z WARN symptom=\"Order submission times out — Europe\"\n2026-10-15T05:56:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1084\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1084-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1084\nService: Order service\nRecorded time: 2026-10-15T05:11:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1084-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Order service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-15T05:56:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1085": [
+    {
+      "id": "INC-1085-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1085\n2026-10-10T22:11:00Z INFO service=\"Integration service\" diagnostic_capture_started\n2026-10-10T22:11:00Z WARN symptom=\"Employee directory lookup fails — Asia Pacific\"\n2026-10-10T22:11:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1085\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1085-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1085\nService: Integration service\nRecorded time: 2026-10-10T21:26:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1085-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Integration service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-10T22:11:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1086": [
+    {
+      "id": "INC-1086-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1086\n2026-10-23T20:46:00Z INFO service=\"Order service\" diagnostic_capture_started\n2026-10-23T20:46:00Z WARN symptom=\"Order submission times out — North America\"\n2026-10-23T20:46:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1086\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1086-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1086\nService: Order service\nRecorded time: 2026-10-23T20:01:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1086-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Order service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-23T20:46:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1087": [
+    {
+      "id": "INC-1087-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1087\n2026-10-10T16:15:00Z INFO service=\"Search service\" diagnostic_capture_started\n2026-10-10T16:15:00Z WARN symptom=\"Search results missing recent records — North America\"\n2026-10-10T16:15:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1087\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1087-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1087\nService: Search service\nRecorded time: 2026-10-10T15:30:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1087-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Search service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-10T16:15:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1088": [
+    {
+      "id": "INC-1088-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1088\n2026-10-13T19:43:00Z INFO service=\"API gateway\" diagnostic_capture_started\n2026-10-13T19:43:00Z WARN symptom=\"API requests rejected unexpectedly — Mobile app\"\n2026-10-13T19:43:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1088\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1088-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1088\nService: API gateway\nRecorded time: 2026-10-13T18:58:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1088-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — API gateway\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-13T19:43:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1089": [
+    {
+      "id": "INC-1089-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1089\n2026-10-13T02:34:00Z INFO service=\"Document service\" diagnostic_capture_started\n2026-10-13T02:34:00Z WARN symptom=\"Document preview unavailable — Customer portal\"\n2026-10-13T02:34:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1089\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1089-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1089\nService: Document service\nRecorded time: 2026-10-13T01:49:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1089-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Document service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-13T02:34:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1090": [
+    {
+      "id": "INC-1090-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1090\n2026-10-20T00:19:00Z INFO service=\"Search service\" diagnostic_capture_started\n2026-10-20T00:19:00Z WARN symptom=\"Search results missing recent records — Internal portal\"\n2026-10-20T00:19:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1090\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1090-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1090\nService: Search service\nRecorded time: 2026-10-19T23:34:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1090-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Search service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-20T00:19:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1091": [
+    {
+      "id": "INC-1091-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1091\n2026-10-16T05:56:00Z INFO service=\"Reporting service\" diagnostic_capture_started\n2026-10-16T05:56:00Z WARN symptom=\"Report export fails — Asia Pacific\"\n2026-10-16T05:56:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1091\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1091-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1091\nService: Reporting service\nRecorded time: 2026-10-16T05:11:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1091-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Reporting service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-16T05:56:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1092": [
+    {
+      "id": "INC-1092-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1092\n2026-10-18T12:43:00Z INFO service=\"Authentication service\" diagnostic_capture_started\n2026-10-18T12:43:00Z WARN symptom=\"Session renewal rejected — Customer portal\"\n2026-10-18T12:43:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1092\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1092-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1092\nService: Authentication service\nRecorded time: 2026-10-18T11:58:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1092-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Authentication service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-18T12:43:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1093": [
+    {
+      "id": "INC-1093-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1093\n2026-10-19T08:14:00Z INFO service=\"Reporting service\" diagnostic_capture_started\n2026-10-19T08:14:00Z WARN symptom=\"Report export fails — Internal portal\"\n2026-10-19T08:14:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1093\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1093-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1093\nService: Reporting service\nRecorded time: 2026-10-19T07:29:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1093-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Reporting service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-19T08:14:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1094": [
+    {
+      "id": "INC-1094-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1094\n2026-10-13T01:30:00Z INFO service=\"Authentication service\" diagnostic_capture_started\n2026-10-13T01:30:00Z WARN symptom=\"Session renewal rejected — Internal portal\"\n2026-10-13T01:30:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1094\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1094-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1094\nService: Authentication service\nRecorded time: 2026-10-13T00:45:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1094-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Authentication service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-13T01:30:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1095": [
+    {
+      "id": "INC-1095-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1095\n2026-10-13T12:16:00Z INFO service=\"Order service\" diagnostic_capture_started\n2026-10-13T12:16:00Z WARN symptom=\"Order history loads incompletely — Internal portal\"\n2026-10-13T12:16:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1095\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1095-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1095\nService: Order service\nRecorded time: 2026-10-13T11:31:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1095-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Order service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-13T12:16:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1096": [
+    {
+      "id": "INC-1096-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1096\n2026-10-19T10:48:00Z INFO service=\"Integration service\" diagnostic_capture_started\n2026-10-19T10:48:00Z WARN symptom=\"External incident synchronization stalled — Mobile app\"\n2026-10-19T10:48:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1096\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1096-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1096\nService: Integration service\nRecorded time: 2026-10-19T10:03:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1096-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Integration service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-19T10:48:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1097": [
+    {
+      "id": "INC-1097-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1097\n2026-10-14T18:44:00Z INFO service=\"Order service\" diagnostic_capture_started\n2026-10-14T18:44:00Z WARN symptom=\"Order submission times out — Customer portal\"\n2026-10-14T18:44:00Z INFO recorded_status=\"Open\" correlation_id=demo-inc-1097\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1097-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1097\nService: Order service\nRecorded time: 2026-10-14T17:59:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1097-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Order service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-14T18:44:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1098": [
+    {
+      "id": "INC-1098-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1098\n2026-10-23T17:58:00Z INFO service=\"Document service\" diagnostic_capture_started\n2026-10-23T17:58:00Z WARN symptom=\"Document upload fails — Asia Pacific\"\n2026-10-23T17:58:00Z INFO recorded_status=\"Resolved\" correlation_id=demo-inc-1098\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1098-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1098\nService: Document service\nRecorded time: 2026-10-23T17:13:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1098-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Document service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-23T17:58:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1099": [
+    {
+      "id": "INC-1099-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1099\n2026-10-21T10:47:00Z INFO service=\"Integration service\" diagnostic_capture_started\n2026-10-21T10:47:00Z WARN symptom=\"External incident synchronization stalled — Europe\"\n2026-10-21T10:47:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1099\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1099-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1099\nService: Integration service\nRecorded time: 2026-10-21T10:02:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1099-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Integration service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-21T10:47:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ],
+  "INC-1100": [
+    {
+      "id": "INC-1100-logs",
+      "kind": "logs",
+      "title": "Application logs",
+      "content": "FICTIONAL DEMO LOGS — INC-1100\n2026-10-12T02:07:00Z INFO service=\"Payment service\" diagnostic_capture_started\n2026-10-12T02:07:00Z WARN symptom=\"Payment status inconsistent — Internal portal\"\n2026-10-12T02:07:00Z INFO recorded_status=\"In progress\" correlation_id=demo-inc-1100\n\nThese generated entries describe the reported symptom. They do not establish a root cause."
+    },
+    {
+      "id": "INC-1100-change",
+      "kind": "change",
+      "title": "Recent change",
+      "content": "FICTIONAL DEMO CHANGE\nReference: CHG-1100\nService: Payment service\nRecorded time: 2026-10-12T01:22:00Z\nChange: routine configuration refresh in the demo environment.\n\nThis is a sample candidate change for investigation, not a confirmed cause. Compare timing and symptoms before drawing conclusions. No deployment or rollback is performed by this application."
+    },
+    {
+      "id": "INC-1100-runbook",
+      "kind": "runbook",
+      "title": "Service runbook",
+      "content": "FICTIONAL DEMO RUNBOOK — Payment service\n\n1. Confirm the symptom and affected users from the incident report.\n2. Review logs around 2026-10-12T02:07:00Z; compare with a healthy period.\n3. Check service health, dependency connectivity and recent changes.\n4. Compare observations with the expected behaviour before proposing a cause.\n5. Record findings and involve the service owner for any production action.\n\nThis document is sample evidence. The application does not execute these steps."
+    }
+  ]
+}
