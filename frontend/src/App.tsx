@@ -1,3 +1,12 @@
-export default function App() {
-  return <main className="p-6"><h1>Incident Desk</h1></main>;
+import IncidentListPage from './features/incidents/pages/IncidentListPage'
+import AppLayout from './shared-components/layout/AppLayout'
+
+const App = () => {
+  return (
+    <AppLayout>
+      <IncidentListPage />
+    </AppLayout>
+  )
 }
+
+export default App
