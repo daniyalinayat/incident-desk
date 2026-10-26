@@ -1,0 +1,108 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: incident-desk-backend
+spec:
+  selector:
+    app: incident-desk-backend
+  ports:
+    - name: http
+      port: 8000
+      targetPort: 8000
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: incident-desk-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: incident-desk-backend
+  template:
+    metadata:
+      labels:
+        app: incident-desk-backend
+    spec:
+      containers:
+        - name: backend
+          image: ghcr.io/daniyalinayat/incident-desk-backend:latest
+          ports:
+            - containerPort: 8000
+          envFrom:
+            - secretRef:
+                name: incident-desk-ai
+          resources:
+            requests:
+              cpu: 50m
+              memory: 128Mi
+            limits:
+              cpu: 500m
+              memory: 256Mi
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 3
+            periodSeconds: 10
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: incident-desk-frontend
+spec:
+  selector:
+    app: incident-desk-frontend
+  ports:
+    - name: http
+      port: 8080
+      targetPort: 8080
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: incident-desk-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: incident-desk-frontend
+  template:
+    metadata:
+      labels:
+        app: incident-desk-frontend
+    spec:
+      containers:
+        - name: frontend
+          image: ghcr.io/daniyalinayat/incident-desk-frontend:latest
+          ports:
+            - containerPort: 8080
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 250m
+              memory: 256Mi
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 3
+            periodSeconds: 10
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: incident-desk
+  annotations:
+    haproxy.router.openshift.io/timeout: 120s
+spec:
+  to:
+    kind: Service
+    name: incident-desk-frontend
+  port:
+    targetPort: http
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
